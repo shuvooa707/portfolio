@@ -1,0 +1,102 @@
+.container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.pic {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 2px 2px 5px #eee;
+    background-image: url("shuvo.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+/*     top:50%; */
+    display: inline-block;
+}
+.name {
+    position: relative;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.title {
+    position: relative;
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-weight: bold; */
+}
+.links {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links .facebook, 
+.links .twitter, 
+.links .github,
+.links .blog,
+.links .linkedin {
+    margin: 10px 10px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-size: contain;
+    border-radius: 5px;
+    line-height: 35px;
+    box-shadow: 2px 2px 2px #ddd;
+}
+
+.links .facebook {
+    background-image: url('facebook.png');
+}
+
+.links .twitter {
+    background-image: url('twitter.png');
+}
+
+.links .github {
+    background-image: url('github.png');
+}
+
+.links .blog {
+    background-image: url('blog.png');
+}
+
+.links .linkedin {
+    background-image: url('linkedin.png');
+}
+
+
+.my-work {
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    display: inline-block;
+    padding: 4px 10px;
+    color: black;
+    text-decoration: none;
+    /* transition: .1s background-color linear; */
+}
+
+.my-work span {
+    transition: inherit;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 7px;
+}
+
+.my-work:active {
+    background-color: black;
+    color: white;
+}
+
+.my-work:active span {
+    background-color: white;
+    color: black;
+}
